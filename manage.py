@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 import os
+import environ
+
+environ.Env.read_env()
 import sys
 
 if __name__ == "__main__":
